@@ -116,11 +116,12 @@
             // 
             textBoxNote.AcceptsTab = true;
             textBoxNote.BorderStyle = BorderStyle.None;
-            textBoxNote.Location = new Point(0, 27);
+            textBoxNote.Dock = DockStyle.Fill;
+            textBoxNote.Location = new Point(0, 24);
             textBoxNote.Multiline = true;
             textBoxNote.Name = "textBoxNote";
             textBoxNote.ScrollBars = ScrollBars.Both;
-            textBoxNote.Size = new Size(800, 398);
+            textBoxNote.Size = new Size(800, 426);
             textBoxNote.TabIndex = 0;
             textBoxNote.WordWrap = false;
             textBoxNote.TextChanged += TextBoxNote_TextChanged;
